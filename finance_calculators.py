@@ -14,7 +14,7 @@ while True:
     print("""investment - to calculate the amount of interest you'll earn on your investment
     bond - to calculate the amount you'll have to pay on a home loan""")
 
-    invest_bond = input("Please enter either investment or bond from the menu above to proceed: ").lower()
+    invest_bond = input("Please enter either investment or bond from the above to proceed: ").lower()
     
     if invest_bond == "investment":
         print("Thank you for selecting investment")
