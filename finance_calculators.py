@@ -28,11 +28,11 @@ while True:
             
         if interest_option == "simple":
             A = P * (1 + r*t)  # 'simple' interest formula, 'A' is the total amount once interest has been applied
-            print("The amount you will get back is: £", A)
+            print("The amount you will get back is: $", A)
                       
         elif interest_option == "compound":
             A = P * math.pow((1 + r), t)  # 'compound' interest formula
-            print("The amount you will get back is: £", A)
+            print("The amount you will get back is: $", A)
         break
             
     elif invest_bond == "bond":
@@ -44,7 +44,7 @@ while True:
         i = interest_rate/12  # Monthly interest rate
         n = time_period
         repayment = (i * P)/(1 - (1+ i)**(-n))  # 'bond' repayment formula
-        print("Your monthly repayment is: £", repayment)
+        print("Your monthly repayment is: $", repayment)
         break
             
     else:
